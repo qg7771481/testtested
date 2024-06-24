@@ -5,3 +5,6 @@ for number in operator:
      if number [4:7] == "096":
         sum = sum+1
 print(sum)
+print(sum)
+print(sum)
+print(sum)
