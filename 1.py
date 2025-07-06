@@ -20,7 +20,7 @@ class Order(BaseModel):
 class User(BaseModel):
     name: str
     email: EmailStr
-    orders: List[Order] = []
+    orders: List[Order] = Field(default_factory=list)
 
 
 users_db: Dict[str, User] = {}
